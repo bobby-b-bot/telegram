@@ -1,0 +1,15 @@
+dist: xenial   # required for Python >= 3.7
+language: python
+python:
+  - "3.5"
+  - "3.6" 
+  - "3.7" 
+# command to install dependencies
+install:
+  - cd ..
+  - git clone https://github.com/bobby-b-bot/utils.git
+  - cd telegram
+  - pip install -r requirements.txt
+
+script:
+  - echo 'success'

@@ -61,7 +61,7 @@ def handle_message(bot, update):
     if is_keyword_mentioned(message_text):
         logger.info("Replied to message of user '{}' in chat '{}'".format(update.message.from_user.id, update.message.chat.id))
         bot.send_message(chat_id=update.message.chat_id, text=get_random_quote(), 
-                         reply_to_message_id=update.message.message_id)
+                         reply_to_message_id=update.message.message_id, parse_mode=ParseMode.MARKDOWN)
             
 help_handler = CommandHandler('help', help_command)
 message_handler = MessageHandler(filters=filters.Filters.text, callback=handle_message)

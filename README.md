@@ -5,7 +5,7 @@ In this repository you can find the Telegram version of the Bobby B Bot.
 
 ## How to use it
 
-Simply mention the bot's name (Bobby B) in your channel after adding it via [this link](https://bit.ly/2C0kogN), and the bot will reply with a random quote.
+Simply mention the bot's name (Bobby B) in your channel after adding it via [this link](http://t.me/bobby_bbot), and the bot will reply with a random quote.
 
 ## How to install
 
